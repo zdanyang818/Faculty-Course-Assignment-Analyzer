@@ -7,7 +7,7 @@ The project aims at modifying an already developed shiny app interface to enhanc
 # Use Case
 This application will provide a webpage to upload a resume and a data file of course descriptions. It will produce a report on resume similarity to courses descriptions to advise the user on the best courses to assign to the faculty member. The resume is supposed to be a txt file. The course description file should be the CSV file only contains two columns with the “title”(Note the case) header and the “description” header. These will allow the algorithm to read that column. Users can enter the course name and instructor name, which will be automatically saved in the report. The user can then click the "Compute" button and the system will automatically a report on resume similarity to courses descriptions. Users should wait patiently for a few seconds and the results will be displayed on their screen. Based on the results, users can compare the similarity scores to select the most suitable course. If the user needs to save the results, they will be able to download them by clicking on the "Download Socring Result" button at the end of the results.
 
-The system has four main functions:
+The system has seven main functions:
 1.  Enter the program name
 2.  Enter the faculty name
 3.	Users should convert all Word files or PDF files into Text files before uploading the resume.
